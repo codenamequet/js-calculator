@@ -1,21 +1,22 @@
 var calculator = {
+
+add: function (num1, num2) {
+    return num1 + num2
+},
+
+subtract: function (num1, num2) {
+    return num1 - num2
+},
+
+multiply: function (num1, num2) {
+    return num1 * num2
+},
+
+divide: function (num1, num2) {
+    return num1 / num2
+},
+
+square: function (num1) {
+    return num1 * num1
 }
-
-let num1 = ''
-let num2 = ''
-
-function add(num1, num2) {
-    num1 + num2
-}
-
-function subtract(num1, num2) {
-    num1 - num2
-}
-
-function multiply (num1, num2) {
-    num1 * num2
-}
-
-function divide (num1, num2) {
-    num1 / num2
 }
